@@ -41,6 +41,7 @@ cp .config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
 # cp .config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
 # cp .config/compton/compton.conf ~/.config/compton/compton.conf
 cp .config/polybar/config.ini ~/.config/polybar/config.ini
+cp .config/polybar/launch.sh ~/.config/polybar/launch.sh
 cp .config/rofi/config ~/.config/rofi/config
 cp .fehbg ~/.fehbg
 cp .config/i3/clipboard_fix.sh ~/.config/i3/clipboard_fix.sh
