@@ -8,10 +8,8 @@ sudo apt-get install -y libxcb-render-util0-dev libxcb-shape0-dev libxcb-xfixes0
 
 mkdir -p ~/.local/share/fonts/
 
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/Hack.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/Meslo.zip
 
-unzip Hack.zip -d ~/.local/share/fonts/
 unzip Meslo.zip -d ~/.local/share/fonts/
 
 fc-cache -fv
