@@ -8,14 +8,11 @@ sudo apt-get install -y libxcb-render-util0-dev libxcb-shape0-dev libxcb-xfixes0
 
 mkdir -p ~/.local/share/fonts/
 
-# wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zip
-# wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/RobotoMono.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/Hack.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.0/Meslo.zip
 
-unzip Iosevka.zip -d ~/.local/share/fonts/
-unzip RobotoMono.zip -d ~/.local/share/fonts/
 unzip Hack.zip -d ~/.local/share/fonts/
+unzip Meslo.zip -d ~/.local/share/fonts/
 
 fc-cache -fv
 
@@ -32,14 +29,11 @@ cd ../..
 pip3 install pywal
 
 mkdir -p ~/.config/i3
-# mkdir -p ~/.config/compton
 mkdir -p ~/.config/rofi
 mkdir -p ~/.config/alacritty
 mkdir -p ~/.config/polybar
 cp .config/i3/config ~/.config/i3/config
 cp .config/alacritty/alacritty.yml ~/.config/alacritty/alacritty.yml
-# cp .config/i3/i3blocks.conf ~/.config/i3/i3blocks.conf
-# cp .config/compton/compton.conf ~/.config/compton/compton.conf
 cp .config/polybar/config.ini ~/.config/polybar/config.ini
 cp .config/polybar/launch.sh ~/.config/polybar/launch.sh
 cp .config/rofi/config ~/.config/rofi/config
